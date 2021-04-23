@@ -6,6 +6,7 @@
 }
 header{
     background-color: rgb(158, 0, 0);
+    color: white;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
@@ -32,5 +33,5 @@ footer{
 }
 p, p a{
     margin-top: 0;
-    color: black;
+    color:white;
 }
