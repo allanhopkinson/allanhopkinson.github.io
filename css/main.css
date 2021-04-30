@@ -8,18 +8,17 @@ header{
     background-color: rgb(158, 0, 0);
     color: white;
     text-align: center;
-    padding: 15px;
-    border-radius: 10px;
+    padding: .75rem;
+    border-radius: .5rem;
 }
 img{
-    float: right;
-    margin: -75px 0 0 0;
-    border-radius: 0 10px 0 0;
-    box-shadow: 0 0 15px black;
+
+    border-radius: 0 .5rem 0 0;
+    box-shadow: 0 0 .75rem black;
 }
 main{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 h2{
     border-bottom: 1px solid black;
@@ -28,8 +27,8 @@ footer{
     background-color: rgb(158, 0, 0);
     color:yellow;
     text-align: center;
-    padding: 15px;
-    border-radius: 10px;
+    padding: .75rem;
+    border-radius: .5rem;
 }
 p, p a{
     margin-top: 0;
