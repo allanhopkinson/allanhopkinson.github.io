@@ -1,0 +1,37 @@
+@media(min-width: 32.5em){
+    header img {
+        max-width: 100%;
+    }
+    
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .over {
+        position: absolute;
+        top: .5em;
+        left: .5em;
+    }
+    .FiveDayForcast{
+        display: flex;
+    }
+    .articleDiv img{
+        float: right;
+    }
+    .contact_div{
+        height: 260px;
+    }
+    .contact_div img{
+        display: block;
+        float: left;
+        padding:.5em;
+    }
+    }
+    
+    

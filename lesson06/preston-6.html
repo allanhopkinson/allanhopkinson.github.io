@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width_device-width, initial-scale=1.0"/>
+        <title>Preston</title>
+        <meta name="description" content="#"/>
+        <link href="css/main.css" rel="stylesheet"/>
+        <link href="css/second.css" rel="stylesheet"/>
+        <link href="css/normalize.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+        <div id="content">
+            <div class="alerts"></div>
+            <header>
+                <img src="images/weather_logo.png" alt="Wed site logo">
+                <section class="theHead">
+                    <h1>Idaho's local Weather and Info</h1>
+                    <p>Find the info you need.</p>
+                </section>
+
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                  </ul>
+
+            </nav>
+            <main>
+                <div class="hero">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="images/hero-test-400.jpg">
+                        <source media="(max-width: 800px)" srcset="images/hero-test-800.jpg">
+                    <img src="images/hero-test-1200.jpg" alt="hero image">
+                </picture>
+                    <div class="over">
+                    <h3>Weather summary</h3>
+                    <div class="details">
+                    <p class="lable">Currently:</p>
+                    <p class="value">Sunny</p>
+                    <p class="lable">High</p>
+                    <p class="value"><span class="temperature">76</span>&deg;F</p>
+                    <p class="lable">Wind Chill</p>
+                    <p class="value"><span class="windChill"></p>
+                    <p class="lable">Humidity</p>
+                    <p class="value">69%</p>
+                    <p class="lable">Wind Speed</p>
+                    <p class="value"><span class="windSpeed">5</span> mph</p>
+                    </div>
+</div>
+                </div>
+                <div class="FiveDayForcast">
+                    <div class="day">
+                        <p>Monday</p>
+                        <p>65</p>
+                    </div>
+                    <div class="day">
+                        <p>Tuesday</p>
+                        <p>65</p>
+                    </div>
+                    <div class="day">
+                        <p>Wednesday</p>
+                        <p>65</p>
+                    </div>
+                    <div class="day">
+                        <p>Thursday</p>
+                        <p>65</p>
+                    </div>
+                    <div class="day">
+                        <p>Friday</p>
+                        <p>65</p>
+                    </div>
+
+                </div>
+                <div class="articleDiv">
+                    <img src="images/forest_fire.jpg">
+                    <h3>Forest Fire Devastates Area</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit similique quos, sunt temporibus, totam sint ullam fugiat vitae deserunt modi placeat est dolore provident optio. Qui, ad. Perspiciatis, laudantium velit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem similique ullam ratione quas! Inventore dolores, corporis placeat natus enim sed alias corrupti nesciunt beatae earum cupiditate. Vel maiores laborum aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magnam. Expedita in velit, saepe ut suscipit culpa at hic pariatur reprehenderit? Doloribus sed a, natus aspernatur nisi alias. Sint, id! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ut? Odit explicabo animi cupiditate, numquam, cum provident modi magni enim, molestias debitis ducimus reiciendis iste assumenda? Enim quaerat accusamus provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. In ab aliquid hic ad, soluta illo, eveniet earum officia ex animi veniam est nostrum inventore corrupti, nobis quis praesentium dolorum expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet quae ipsa quas architecto quaerat numquam dolorum, quis velit dicta inventore molestiae nobis similique, possimus amet vero illo suscipit corrupti. Ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque ullam, facere accusamus totam quo eius dolore reprehenderit earum laudantium minima, aliquam possimus impedit vitae, nesciunt veniam distinctio doloribus iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, assumenda? Beatae quam tempore neque tenetur mollitia nulla adipisci eaque, pariatur reprehenderit deleniti cum laudantium, alias quas dolorem, corrupti omnis veritatis!</p>
+                </div>
+                <div class="contact_div">
+                    <img src="images/contact-map.jpg" alt="Map">
+                    <div class="contact_info">
+                        <h3>Contact Information</h3>
+                        <p>1234 North Candycane Lane, Preston ID, 83263</p>
+                        <p>(***)***-****</p>
+                    </div>
+                </div>
+
+            </main>
+            <footer>
+                &copy;<span class="the_year"></span> | Allan G. Hopkinson | <div class="the_date"></div>
+                
+            </footer>
+        </div>
+        <script src="js/main.js"></script>
+        <script src="js/windchill.js"></script>
+
+    </body>
+
+</html>

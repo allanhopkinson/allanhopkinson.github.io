@@ -32,6 +32,9 @@ nav {
     display: none;
 
 }
+.active{
+    text-decoration: underline;
+}
 .navigation a {
 	display: block;
 	padding: 0.75rem;
@@ -46,6 +49,9 @@ nav {
 }
 .hero{
     position: relative;
+}
+.hero img{
+    max-width: 100%;
 }
 .over {
     padding: 2em;
@@ -62,9 +68,32 @@ nav {
     
 }
 
-
 .responsive li {
     display: block;
+}
+
+.FiveDayForcast{
+    max-width: 50%;
+    background-color: #0077B6;
+    display: none;
+    align-content: center;
+    justify-content: center;
+}
+.day{
+    padding: .5em;
+}
+.articleDiv img{
+    padding: .5em;
+}
+.contact_div{
+    background-color: #0077B6;
+
+}
+.contact_div img{
+display: none;
+}
+.contact_info{
+    padding:.5em;
 }
 footer{
     margin: 0 auto;
